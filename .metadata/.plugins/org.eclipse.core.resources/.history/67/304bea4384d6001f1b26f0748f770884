@@ -1,0 +1,5 @@
+package com.caiocezar.workshopmongo.domain;
+
+public class User {
+
+}

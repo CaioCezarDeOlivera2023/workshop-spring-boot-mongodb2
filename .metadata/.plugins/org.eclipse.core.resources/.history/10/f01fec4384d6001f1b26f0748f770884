@@ -1,0 +1,5 @@
+package com.caiocezar.workshopmongo.resource;
+
+public class UserResource {
+
+}
