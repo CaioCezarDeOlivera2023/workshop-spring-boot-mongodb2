@@ -1,4 +1,4 @@
-package com.caiocezar.workshopmongo.resources;
+package com.caiocezar.workshopmongo.resource;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,17 +12,16 @@ import org.springframework.web.bind.annotation.RestController;
 import com.caiocezar.workshopmongo.domain.User;
 
 @RestController
-@RequestMapping(value="/users")
+@RequestMapping(value = "/users")
 public class UserResource {
 	
 	@RequestMapping(method=RequestMethod.GET)
-	public ResponseEntity<List<User>> findALL(){
-		User maria = new User("1", "Maria Brown", "maria@gmail.com");
-		User alex = new User("2", "Alex Green", "alex@gmail.com");
+	public ResponseEntity<List<User>> findAll() {
 		List<User> list = new ArrayList<>();
+		User maria = new User("1001", "Maria Brown", "maria@gmail.com");
+		User alex = new User("1002", "Alex Green", "alex@gmail.com");
 		list.addAll(Arrays.asList(maria, alex));
-		return ResponseEntity.ok().body(list);//aqui esta retornando oque irá aparecer na minha lista
+		return ResponseEntity.ok().body(list);
 	}
-	
-
 }
+ 

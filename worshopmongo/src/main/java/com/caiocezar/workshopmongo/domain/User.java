@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.Objects;
 
 public class User implements Serializable {
+
 	
 	private static final long serialVersionUID = 1L;
 	
@@ -11,8 +12,9 @@ public class User implements Serializable {
 	private String id;
 	private String email;
 	
-	public User() {// construtor sem argumentos ou vazio
-		}
+	public User () {
+		
+	}
 
 	public User(String name, String id, String email) {
 		super();
@@ -45,6 +47,10 @@ public class User implements Serializable {
 		this.email = email;
 	}
 
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
@@ -61,5 +67,6 @@ public class User implements Serializable {
 		User other = (User) obj;
 		return Objects.equals(id, other.id);
 	}
+
 	
 }
