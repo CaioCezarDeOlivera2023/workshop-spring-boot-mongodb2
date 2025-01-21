@@ -15,7 +15,7 @@ import com.caiocezar.workshopmongo.repository.PostRepository;
 import com.caiocezar.workshopmongo.repository.UserRepository;
 
 @Configuration
-public class Instatiation implements CommandLineRunner{
+public class Instatiation implements CommandLineRunner{//classe de carga inicial da base de dados
 
 	@Autowired
 	private UserRepository userRepository;	
@@ -44,6 +44,9 @@ public class Instatiation implements CommandLineRunner{
 		
 		
 		postRepository.saveAll(Arrays.asList(post1, post2));
+		
+		maria.getPosts().addAll(Arrays.asList(post1, post2));//esta incluindo os posta da maria
+		userRepository.save(maria);//e salvando em maria
 	}
 
 }

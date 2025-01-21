@@ -1,1 +1,9 @@
 1737304908048	Rename package 'com.caiocezar.workshopmongo.resource'
+1737312951113	Delete element
+1737312956573	Delete element
+1737312964197	Delete element
+1737314458592	Rename type 'UerRepository'
+1737316637558	Rename type 'userDTO'
+1737318757588	Rename type 'ObjectNotfoundException'
+1737401159874	Copy compilation unit
+1737480617972	Encapsulate field 'posts, ...'
