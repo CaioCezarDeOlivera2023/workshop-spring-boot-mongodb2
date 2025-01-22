@@ -15,7 +15,7 @@ import com.caiocezar.workshopmongo.repository.PostRepository;
 import com.caiocezar.workshopmongo.repository.UserRepository;
 
 @Configuration
-public class Instatiation implements CommandLineRunner{//classe de carga inicial da base de dados
+public class Instantiation implements CommandLineRunner{//classe de carga inicial da base de dados
 
 	@Autowired
 	private UserRepository userRepository;	
