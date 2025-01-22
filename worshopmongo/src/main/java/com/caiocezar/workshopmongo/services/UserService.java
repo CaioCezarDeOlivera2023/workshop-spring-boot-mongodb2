@@ -15,11 +15,10 @@ import com.caiocezar.workshopmongo.services.exception.ObjectNotFoundException;
 public class UserService {
 
 	@Autowired
-	private UserRepository repo;// mecanismo de injeção automatica do spring
+	private UserRepository repo;
 
 	public List<User> findAll() {
-		return repo.findAll();// aqui ira retornar todos os objetos do usuario
-
+		return repo.findAll();
 	}
 
 	public User findById(String id) {
@@ -30,25 +29,24 @@ public class UserService {
 	public User insert(User obj) {
 		return repo.insert(obj);
 	}
-	
+
 	public void delete(String id) {
 		findById(id);
 		repo.deleteById(id);
 	}
-	
+
 	public User update(User obj) {
 		User newObj = findById(obj.getId());
-		upDate(newObj, obj);
+		updateData(newObj, obj);
 		return repo.save(newObj);
 	}
-	
-	private void upDate(User newObj, User obj) {
+
+	private void updateData(User newObj, User obj) {
 		newObj.setName(obj.getName());
 		newObj.setEmail(obj.getEmail());
-		
 	}
 
-	public User fromDTO(UserDTO objDTO) {
-		return new User(objDTO.getId(), objDTO.getName(), objDTO.getEmail());
+	public User fromDTO(UserDTO objDto) {
+		return new User(objDto.getId(), objDto.getName(), objDto.getEmail());
 	}
 }
