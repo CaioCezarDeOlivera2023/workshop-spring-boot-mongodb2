@@ -868,3 +868,18 @@
 2025-01-24 12:01:01,182 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-01-24 12:01:01,194 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-01-24 12:01:01,198 [Worker-321: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Temp\workshopmongo\worshopmongo\src\test\resources
+2025-01-24 12:04:55,297 [Worker-316: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 12:04:55,306 [Worker-316: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 12:04:55,310 [Worker-316: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Temp\workshopmongo\worshopmongo\src\test\resources
+2025-01-24 12:05:04,765 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 12:05:04,774 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 12:05:04,777 [Worker-322: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Temp\workshopmongo\worshopmongo\src\test\resources
+2025-01-24 12:05:18,149 [Worker-320: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 12:05:18,158 [Worker-320: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 12:05:18,161 [Worker-320: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Temp\workshopmongo\worshopmongo\src\test\resources
+2025-01-24 12:05:31,596 [Worker-323: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 12:05:31,606 [Worker-323: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 12:05:31,609 [Worker-323: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Temp\workshopmongo\worshopmongo\src\test\resources
+2025-01-24 12:14:34,364 [Worker-328: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 12:14:34,382 [Worker-328: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 12:14:34,389 [Worker-328: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Temp\workshopmongo\worshopmongo\src\test\resources
